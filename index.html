@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JJ's Tsquares</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        function addToCart() {
+            window.location.href = 'out_of_stock.html';
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -18,7 +23,7 @@
             <h2>Tsquare Model A</h2>
             <p>Perfect for precise measurements</p>
             <p class="price">₱950.00</p>
-            <button>Add to Cart</button>
+            <button onclick="addToCart()">Add to Cart</button>
         </section>
 
         <section class="product">
@@ -26,7 +31,7 @@
             <h2>Tsquare Model B</h2>
             <p>Sturdy and durable</p>
             <p class="price">₱980.00</p>
-            <button>Add to Cart</button>
+            <button onclick="addToCart()">Add to Cart</button>
         </section>
 
         <!-- Add more product sections as needed -->
